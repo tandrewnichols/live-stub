@@ -1,0 +1,59 @@
+{
+  "name": "live-stub",
+  "description": "Generate stubbed express routes on the fly for testing purposes.",
+  "version": "1.0.0",
+  "main": "lib/live-stub.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tandrewnichols/live-stub.git"
+  },
+  "keywords": [
+    "express",
+    "stub",
+    "dynamic",
+    "generate",
+    "routes",
+    "router",
+    "API"
+  ],
+  "author": {
+    "name": "Andrew Nichols",
+    "email": "tandrewnichols@gmail.com",
+    "url": "www.tandrewnichols.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tandrewnichols/live-stub/issues"
+  },
+  "homepage": "https://github.com/tandrewnichols/live-stub",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "chalk": "^1.1.1",
+    "compression": "^1.6.0",
+    "config-extend": "^0.1.0",
+    "cookie-parser": "^1.4.0",
+    "debug": "^2.2.0",
+    "express": "^4.13.3",
+    "fs-extra": "^0.24.0",
+    "lodash": "^3.10.1",
+    "randomstring": "^1.1.0",
+    "try-require": "^1.2.1"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.10.0",
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "gulp-open": "^1.0.0",
+    "jshint-stylish": "^2.0.1",
+    "mocha": "^2.3.3",
+    "mocha-given": "^0.1.3",
+    "proxyquire": "^1.7.2",
+    "should": "^7.1.0",
+    "sinon": "^1.17.1"
+  }
+}
